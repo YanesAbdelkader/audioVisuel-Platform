@@ -1,0 +1,53 @@
+.logout-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 20% 35%;
+    border: 1px solid black;
+    border-radius: 40px;
+    background-color: black;
+    padding:20px;
+    box-shadow: 5px 10px 18px #888888;
+}
+
+.logout-container p{
+    font-size: 28px;
+    font-weight: bold;
+    margin-right: 20px;
+    color: white;
+}
+ .btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+
+ .btn button{
+    color: white;
+    padding:5px 20px;
+    border: 1px solid black;
+    border-radius: 40px;
+    margin-left: 20px;
+    cursor: pointer;
+ }
+
+ .btn button:hover{
+    padding: 10px 25px;
+ }
+
+ .btn .no{
+    background-color: red;
+ }
+
+ .btn .no:hover{
+    background-color: #953d2f;
+    border: 1px solid #fa0303;
+ }
+
+ .btn .yes{
+    background-color: rgb(2, 251, 2);
+ }
+
+ .btn .yes:hover{
+    background-color: rgb(24, 210, 24);
+ }

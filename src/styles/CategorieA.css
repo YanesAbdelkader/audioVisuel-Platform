@@ -1,0 +1,121 @@
+.categorie-container {
+    font-size: 2.1rem;
+    width: 100%;
+    font-weight: bold;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.categorie-container h1 {
+    color: #ff0000;
+    margin-left: 20px;
+}
+
+.categorie-container table {
+    width: 100%;
+    margin-left: 20px;
+}
+
+thead, tbody {
+    width: 100%;
+}
+
+.categorie-container table .ccolumn, .crow {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+}
+
+.categorie-container table .ccolumn {
+    background-color: red;
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+    padding:5px 20px;
+}
+
+.categorie-container table .crow {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.786);
+    padding:20px;
+    transition: all 0.2s ease-in;
+    width: 25%;
+}
+
+.crow:hover {
+    padding: 25px;
+}
+
+.crow img {
+    width: 100%;
+    height: 200px;
+    border-radius: 15px;
+}
+
+.crow span {
+    font-size: 14px;
+    word-wrap: 5;
+}
+
+
+.add-btn {
+    padding: 15px 20px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #fa0303;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.add-btn:hover {
+    background-color: #218838;
+}
+
+.update-btn, .remove-btn {
+    padding: 7px 10px;
+    margin: 5px;
+    font-size: 16px;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.update-btn {
+    background-color: #007bff;
+}
+
+.update-btn:hover {
+    background-color: #015ab8;
+}
+
+.remove-btn {
+    background-color: #dc3545;
+}
+
+.remove-btn:hover {
+    background-color: #ae0214;
+}
+
+@media (max-width: 768px) {
+    .categorie-container {
+        font-size: 1.5rem;
+    }
+
+    .categorie-container table {
+        width: 100%;
+    }
+
+    .ccolumn, .crow {
+        font-size: 16px;
+        padding: 8px;
+    }
+
+    .crow img {
+        height: auto;
+    }
+}

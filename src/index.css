@@ -1,0 +1,18 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+}
+
+.error {
+    color: white;
+    margin: 30px 10px;
+    border: 1px solid red;
+    border-radius: 20px;
+    background-color: #ff6370;
+    width: 96%;
+    text-align: center;
+    padding: 15px;
+  }

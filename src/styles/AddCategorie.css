@@ -1,0 +1,85 @@
+
+.form-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    width: 70%;
+    align-self: center;
+}
+
+.form-container form{
+    display: flex;
+    width: 100%;
+    border: 2px solid red;
+    padding: 30px;
+    background: white;
+    border-radius: 15px;
+    flex-direction: column;
+}
+
+.form-container form .error {
+    color: white;
+    margin: 30px 10px;
+    border: 1px solid red;
+    border-radius: 20px;
+    background-color: #ffbcc2;
+    width: 96%;
+    text-align: center;
+  }
+
+.form-container form h1{
+    text-align: center;
+    margin-bottom: 40px;
+    color: black;
+    font-size: 2.1rem;
+}
+.form-container form label{
+    color: rgb(73, 71, 71);
+    font-size: 26px;
+    font-weight: bold;
+    padding: 10px;
+}
+.form-container form textarea,.form-container form input{
+    display: block;
+    border: 2px solid red;
+    width: 95%;
+    padding: 15px;
+    margin: 10px auto;
+    border-radius: 10px;
+    text-align: left;
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+.form-container form textarea:hover,.form-container form input:hover{
+    padding: 25px;
+    transition: all 0.2s ease;
+}
+.form-container form textarea{
+  max-width: 95%;
+}
+
+.form-container form button{
+    width: 30%;
+    font-size: 22px;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 30px;
+    border: 1px solid black;
+    margin-top: 30px;
+    margin-left: 69%;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+.form-container form button:hover{
+    background-color: red;
+    border: 1px solid red;
+    padding: 15px;
+    transition: all 0.3s ease;
+}
+
+.form-container form button:active{
+    opacity: .4;
+}

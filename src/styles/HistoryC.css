@@ -1,0 +1,53 @@
+.body-contanier{
+    width: 100%;
+}
+
+.body-contanier h2{
+    color: red;
+    font-size: 1.9rem;
+}
+
+.body-contanier .buyCourse{
+    color:white;
+    background-color: red;
+    font-weight: 600;
+    font-size: 18px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 30px;
+}
+
+.body-contanier .buyCourse:hover{
+    padding: 30px;
+    background-color: black;
+    border: 1px solid black;
+    transition: all 0.3s ease;
+}
+
+.body-contanier .history-contanier{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 18px;
+    font-weight: 400;
+    color: white;
+    background-color: red;
+    margin-left: 15px;
+    border: 1px solid red;
+    border-radius: 30px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.body-contanier .history-contanier:hover{
+    padding: 20px;
+    background-color: black;
+    border: 1px solid black;
+    transition: all 0.3s ease;
+}
+
+.history-contanier span{
+    display: flex;
+    align-items: center;
+}
+

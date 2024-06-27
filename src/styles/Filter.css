@@ -1,0 +1,41 @@
+.filters {
+  position: static;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 230px;
+  top: 80px;
+  margin-bottom: 80px;
+  font-family: sans-serif;
+  background-color: #f6faff; /* Adjust background color */
+  border-radius: 10px; /* Add border radius */
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); /* Add box shadow */
+  padding: 20px; /* Add padding for better spacing */
+}
+
+.filters select {
+  margin: 10px 0;
+  padding: 8px; /* Increase padding for better touch interaction */
+  font-size: 16px; /* Decrease font size slightly */
+  width: 100%; /* Ensure select elements take up full width */
+  border-radius: 5px; /* Add border radius */
+  border: 1px solid #ddd; /* Add subtle border */
+}
+
+.filters label {
+  margin-top: 15px; /* Increase top margin for better separation */
+  margin-left: 5px; /* Adjust left margin for better alignment */
+  font-size: 16px;
+  color: #333; /* Adjust label color for better contrast */
+  text-align: left; /* Ensure labels are left-aligned */
+}
+
+.filters label select {
+  margin-top: 5px;
+  outline: none;
+}
+
+/* Hover effect for options */
+.filters select:hover {
+  border-color: #aaa; /* Darken border color on hover */
+}

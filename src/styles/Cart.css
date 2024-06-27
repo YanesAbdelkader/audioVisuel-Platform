@@ -1,0 +1,35 @@
+.cart {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.checkout button{
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 50px;
+    font-size: 20px;
+    font-weight: bolder;
+    color: rgb(19, 19, 19);
+    border: none;
+    border-radius: 8px;
+    margin: 10px;
+    cursor: pointer;
+}
+.checkout .btn-continue{
+    background-color: black;
+    color: #ff0000;
+}
+.checkout .btn-check{
+    background-color: #ff0000;
+    color: white;
+}
+.checkout button:hover{
+    opacity: .7;
+}
+.sub{
+    font-size: 22px;
+    text-align: center;
+    font-weight: bolder;
+}

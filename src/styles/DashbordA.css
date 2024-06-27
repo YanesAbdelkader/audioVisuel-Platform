@@ -1,0 +1,40 @@
+.dashbord {
+    font-size: 2.1rem;
+    width: 100%;
+    font-weight: bold;
+    font-family: Helvetica, Arial, sans-serif; 
+}
+
+.dashbord h1 {
+    color: #ff0000;
+    margin-left: 20px;
+}
+
+.dashbord .info-container{
+    margin-bottom: 40px;
+}
+
+.dashbord .info-container a {
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 10px;
+    border: 1px solid #ff0000;
+    border-radius: 80px;
+    margin: 50px auto 0; 
+    color: black;
+    background-color: red;
+    transition: all 0.3s ease-out;
+}
+
+.dashbord .info-container a:hover {
+    color: white;
+    background-color: black;
+    border: 1px solid black;
+    padding: 20px;
+}
+
+a {
+    text-decoration: none;
+}

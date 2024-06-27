@@ -1,0 +1,140 @@
+/* Checkout.css */
+.checkout-form-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3%;
+    margin-bottom: 5%;
+    width: 70%;
+    margin-left: 15%;
+  }
+  
+  .checkout-form {
+    display: flex;
+    width: 100%;
+    border: 2px solid red;
+    padding: 30px;
+    background: white;
+    border-radius: 15px;
+    flex-direction: column;
+  }
+  
+  .checkout-form h1 {
+    text-align: center;
+    margin-bottom: 40px;
+    color: black;
+    font-size: 2.1rem;
+  }
+  
+  .checkout-form label {
+    color: rgb(73, 71, 71);
+    font-size: 26px;
+    font-weight: bold;
+    padding: 10px;
+  }
+  
+  .checkout-form input {
+    display: block;
+    border: 2px solid red;
+    width: 95%;
+    padding: 15px;
+    margin: 10px auto;
+    border-radius: 10px;
+    text-align: left;
+    font-size: 20px;
+    padding-bottom: 20px;
+  }
+  
+  .checkout-form input:hover {
+    padding: 25px;
+    transition: all 0.2s ease;
+  }
+  
+  .checkout-form button {
+    width: 30%;
+    font-size: 22px;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 30px;
+    border: 1px solid black;
+    margin-top: 30px;
+    margin-left: 69%;
+    margin-bottom: 20px;
+    cursor: pointer;
+  }
+  
+  .checkout-form button:hover {
+    background-color: red;
+    border: 1px solid red;
+    padding: 15px;
+    transition: all 0.3s ease;
+  }
+  
+  .checkout-form button:active {
+    opacity: 0.4;
+  }
+  
+  /* styles/Checkout.css */
+
+/* Success Message */
+.success-message {
+  background-color: #dff0d8;
+  color: #3c763d;
+  border: 1px solid #d6e9c6;
+  padding: 15px;
+  margin: 20px 0;
+  border-radius: 40px;
+  text-align: center;
+}
+
+.error-message {
+  background-color: #ffc5c5;
+  color: #ff0000;
+  border: 1px solid #ffadad;
+  padding: 15px;
+  margin: 20px 0;
+  border-radius: 40px;
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+/* Order Summary */
+.order-summary {
+  margin-top: 20px;
+  border: 1px solid #ddd;
+  padding: 20px;
+  border-radius: 4px;
+  background-color: #f9f9f9;
+}
+
+.order-summary h2 {
+  margin-top: 0;
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #333;
+}
+
+.order-summary .course-item {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.order-summary .course-item:last-child {
+  border-bottom: none;
+}
+
+.order-summary .course-item p {
+  margin: 0;
+  color: #555;
+}
+
+.order-summary h3 {
+  margin-top: 20px;
+  font-size: 20px;
+  text-align: right;
+  color: #333;
+}

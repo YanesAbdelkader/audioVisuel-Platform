@@ -1,0 +1,54 @@
+.cart-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 600px;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 10px;
+}
+
+.cart-item img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    margin-right: 10px;
+    border-radius: 4px;
+}
+
+.cart-item span {
+    flex: 1;
+    margin-right: 10px;
+}
+
+.cart-item .course-name {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.cart-item .course-price {
+    font-size: 16px;
+    color: #333;
+}
+
+.cart-item button {
+    background-color: #ff0000;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.cart-item button:hover {
+    opacity: 0.7;
+}
+
+.cart-item input[type="number"] {
+    width: 50px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    text-align: center;
+}

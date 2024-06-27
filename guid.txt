@@ -1,0 +1,28 @@
+src/
+├── assets/         # Static assets like images, videos, etc.
+├── components/     # Reusable components
+├── pages/          # Page components
+├── services/       # API calls
+├── hooks/          # Custom hooks
+├── utils/          # Utility functions
+├── App.jsx         # Main application component
+├── main.jsx        # Entry point
+└── styles/         # Stylesheets
+
+Basic Components:
+
+    Header: Navigation bar, user authentication links (login/signup).
+    Footer: Contact information, social media links.
+    CourseList: Display a list of available courses.
+    CourseDetail: Detailed view of a single course.
+    Cart: Manage courses added to the shopping cart.
+    Checkout: Payment processing page.
+
+Pages:
+
+    Home: Overview of the platform, featured courses.
+    Courses: List of all courses.
+    CourseDetail: Detailed information about a specific course.
+    Cart: Review items before checkout.
+    Checkout: Complete the purchase process.
+    Login/Signup: User authentication.

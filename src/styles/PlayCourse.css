@@ -1,0 +1,70 @@
+.player-container{
+    width: 100%;
+    display: flex;
+    align-items: start;
+    justify-self: start;
+    background-color: rgb(255, 246, 246);
+}
+
+.player-container .player{
+    width: 60%;
+    margin-left: 20px;
+    margin-top: 30px;
+    height: 100vh;
+}
+
+.player-container .player video{
+    border: 1px solid;
+    border-radius: 10px;
+}
+
+.player-container .player h1{
+    margin-left: 10px;
+    font-weight: 800;
+}
+
+.player-container .player p{
+    margin-left: 20px;
+}
+
+.player-container .playList{
+    width: 45%;
+    margin-top: 5px;
+}
+
+.player-container .playList h1{
+    margin-left: 20px;
+    color: red;
+}
+
+.player-container .playList ul{
+    padding: 0%;
+    margin-left: 20px;
+    margin-right: 30px;
+    list-style-type: none;
+}
+
+.player-container .playList li{
+    width: 99%;
+    color: white;
+    border: 1px solid rgba(0, 0, 0, 0.793);
+    background-color: rgba(0, 0, 0, 0.759);
+    border-radius: 10px;
+    margin-bottom: 15px;
+    padding: 13px;
+    font-size: 20px;
+}
+
+.player-container .playList li:hover{
+    padding: 15px;
+    background-color: rgba(255, 0, 0, 0.887);
+    border: 1px solid red;
+    border-radius: 30px;
+    font-weight: 600;
+    transition: all 0.2s ease-in-out;
+}
+
+.player-container .playList li span{
+    display: flex;
+    align-items: center;
+}
